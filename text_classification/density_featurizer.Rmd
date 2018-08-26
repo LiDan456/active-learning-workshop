@@ -18,7 +18,7 @@ dataset. The example is taken from the wiki-tox word embedding data used in KDD 
 ```{r load}
 load("featurized_data.RData") # Load FEATURIZED DATA and final_res
 FEATURE_DIM <- 50
-SUBSET_SIZE <- 60
+SUBSET_SIZE <- 1000
 SUBSET_DATA <- FEATURIZED_DATA[sample(1:nrow(FEATURIZED_DATA), SUBSET_SIZE),]
 ```
 
